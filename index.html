@@ -1,0 +1,858 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Cheatsheet HTML/CSS</title>
+    <link rel="stylesheet" href="./Resources/CSS/styles.css">
+</head>
+
+<body>
+    <header>
+        <h1>HTML/CSS Cheatsheet</h1>
+    </header>
+    <!--HTML Cheatsheet Start-->
+    <article>
+        <h1>HTML</h1>
+        <!--Text Tags Table Start-->
+        <section>
+            <h2>Text Tags</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Tag</th>
+                        <th>Name</th>
+                        <th>Description</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>&lt;h1-h6&gt;</td>
+                        <td>Headings 1-6</td>
+                        <td>h1 is the largest, h6 is the smallest</td>
+                    </tr>
+                    <tr>
+                        <td>&lt;p&gt;</td>
+                        <td>Paragraph</td>
+                        <td>text body</td>
+                    </tr>
+                    <tr>
+                        <td>&lt;b&gt;</td>
+                        <td>Bold</td>
+                        <td>Increases the font weight</td>
+                    </tr>
+                    <tr>
+                        <td>&lt;i&gt;</td>
+                        <td>Italic</td>
+                        <td>Changes font style</td>
+                    </tr>
+                    <tr>
+                        <td>&lt;sup&gt;</td>
+                        <td>Superscript</td>
+                        <td>Puts characters in top right corner like an exponent</td>
+                    </tr>
+                    <tr>
+                        <td>&lt;sub&gt;</td>
+                        <td>Subscript</td>
+                        <td>Puts characters in bottom right corner like chemical formulas</td>
+                    </tr>
+                    <tr>
+                        <td>&lt;br&gt;</td>
+                        <td>Line break</td>
+                        <td>Following starts on a new line(no closing tag)</td>
+                    </tr>
+                    <tr>
+                        <td>&lt;hr&gt;</td>
+                        <td>Horizontal rule</td>
+                        <td>A horizontal line separating two sections(no closing tag)</td>
+                    </tr>
+                    <tr>
+                        <td>&lt;strong&gt;</td>
+                        <td>Strong</td>
+                        <td>Semantic markup for bold</td>
+                    </tr>
+                    <tr>
+                        <td>&lt;em&gt;</td>
+                        <td>Emphasis</td>
+                        <td>Semantic markup for italic</td>
+                    </tr>
+                    <tr>
+                        <td>&lt;blockquote&gt;</td>
+                        <td>Long quote(entire paragraph)</td>
+                        <td>Indents text on both sides</td>
+                    </tr>
+                    <tr>
+                        <td>&lt;q&gt;</td>
+                        <td>Quote</td>
+                        <td>Adds quotation marks around text</td>
+                    </tr>
+                    <tr>
+                        <td>&lt;abbr&gt;</td>
+                        <td>Abbreviation/Acronyms</td>
+                        <td>Use "title=" for full term, which will display when hovered over</td>
+                    </tr>
+                    <tr>
+                        <td>&lt;cite&gt;</td>
+                        <td>Citation</td>
+                        <td>Content is rendered in italics</td>
+                    </tr>
+                    <tr>
+                        <td>&lt;dfn&gt;</td>
+                        <td>Definiton</td>
+                        <td>Content is rendered in italics</td>
+                    </tr>
+                    <tr>
+                        <td>&lt;address&gt;</td>
+                        <td>Address</td>
+                        <td>Contains contact details nested within</td>
+                    </tr>
+                    <tr>
+                        <td>&lt;ins&gt;</td>
+                        <td>Insert</td>
+                        <td>Underlines inserted content</td>
+                    </tr>
+                    <tr>
+                        <td>&lt;del&gt;</td>
+                        <td>Delete</td>
+                        <td>Strikes a line through the center of the deleted content</td>
+                    </tr>
+                    <tr>
+                        <td>&lt;s&gt;</td>
+                        <td>Strike</td>
+                        <td>Strikes a line through the center of the content (ie. old price, still want it visible)</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+        <!--Text Tags Table Finish-->
+        <!--List Tags Table Start-->
+        <section>
+            <h2>List Tags</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Tag</th>
+                        <th>Name</th>
+                        <th>Description</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>&lt;ol&gt;</td>
+                        <td>Ordered List</td>
+                        <td>Box in which list items are nested and numbered in decending order</td>
+                    </tr>
+                    <tr>
+                        <td>&lt;ul&gt;</td>
+                        <td>Unordered List</td>
+                        <td>Box in which list items are nested and marked with bullet points</td>
+                    </tr>
+                    <tr>
+                        <td>&lt;li&gt;</td>
+                        <td>List Items</td>
+                        <td>Content is indented and either numbered or marked with bullet points</td>
+                    </tr>
+                    <tr>
+                        <td>&lt;dl&gt;</td>
+                        <td>Definition List</td>
+                        <td>Box in which the term and the defintion are nested</td>
+                    </tr>
+                    <tr>
+                        <td>&lt;dt&gt;</td>
+                        <td>Definition Term</td>
+                        <td>The term being defined, set apart from the following defintion</td>
+                    </tr>
+                    <tr>
+                        <td>&lt;dd&gt;</td>
+                        <td>Definition</td>
+                        <td>The definition of the previous term, indented and a line below from the term</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+        <!--List Tags Table Finish-->
+        <!--Anchor Tags Table Start-->
+        <section>
+            <h2>Anchor Tags</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Tag</th>
+                        <th>Name</th>
+                        <th>Description</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>&lt;a&gt;</td>
+                        <td>Anchor(link)</td>
+                        <td>Provides a link using (href=attribute/url/relative path)</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+        <!--Anchor Tags Table Finish-->
+        <!--Anchor Attributes Table Start-->
+        <section>
+            <h2>Anchor Attributes</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Attribute</th>
+                        <th>Content</th>
+                        <th>Description</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>mailto:</td>
+                        <td>href="mailto:email@address.com"</td>
+                        <td>Link opens user's email with the designated destination address</td>
+                    </tr>
+                    <tr>
+                        <td>target</td>
+                        <td>href="www.example.com" target="_blank"</td>
+                        <td>opens link in a new window</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+        <!--Anchor Attributes Table Finish-->
+        <!--Table Tags Table Start-->
+        <section>
+            <h2>Table Tags</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Tag</th>
+                        <th>Name</th>
+                        <th>Description</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>&lt;table&gt;</td>
+                        <td>Table</td>
+                        <td>Box in which table elements are nested</td>
+                    </tr>
+                    <tr>
+                        <td>&lt;thead&gt;</td>
+                        <td>Table Header</td>
+                        <td>Box in which table headings are nested</td>
+                    </tr>
+                    <tr>
+                        <td>&lt;tbody&gt;</td>
+                        <td>Table Body</td>
+                        <td>Box in which the main body of the table is nested</td>
+                    </tr>
+                    <tr>
+                        <td>&lt;tfoot&gt;</td>
+                        <td>Table Footer</td>
+                        <td>Box in which the the table results data are nested</td>
+                    </tr>
+                    <tr>
+                        <td>&lt;tr&gt;</td>
+                        <td>Table Row</td>
+                        <td>Box in which the table heading and table data is nested</td>
+                    </tr>
+                    <tr>
+                        <td>&lt;th&gt;</td>
+                        <td>Table Heading</td>
+                        <td>Element in which the heading data is entered(displayed in bold)</td>
+                    </tr>
+                    <tr>
+                        <td>&lt;td&gt;</td>
+                        <td>Table Data</td>
+                        <td>Element in which the table data is entered</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+        <!--Table Tags Table Finish-->
+        <!--Table Attributes Table Start-->
+        <section>
+            <h2>Table Attributes</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Attributes</th>
+                        <th>Content</th>
+                        <th>Description</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>colspan</td>
+                        <td>colspan="number of columns to span"</td>
+                        <td>Extends how far the data spans horizontally in the table</td>
+                    </tr>
+                    <tr>
+                        <td>rowspan</td>
+                        <td>rowspan="number or rows to span"</td>
+                        <td>Extends how far the data spans vertically in the table</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+        <!--Table Attributes Table Finish-->
+        <!--Form Tags Table Start-->
+        <section>
+            <h2>Form Tags</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Tag</th>
+                        <th>Name</th>
+                        <th>Description</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>&lt;form&gt;</td>
+                        <td>Form</td>
+                        <td>Box that contains elements to create/control the filling out of a form</td>
+                    </tr>
+                    <tr>
+                        <td>&lt;input&gt;</td>
+                        <td>Input</td>
+                        <td>Element used to create several different form controls</td>
+                    </tr>
+                    <tr>
+                        <td>&lt;textarea&gt;</td>
+                        <td>Text Area</td>
+                        <td>Element used to create a multi-line text input</td>
+                    </tr>
+                    <tr>
+                        <td>&lt;select&gt;</td>
+                        <td>Select</td>
+                        <td>Creates a drop down list box</td>
+                    </tr>
+                    <tr>
+                        <td>&lt;option&gt;</td>
+                        <td>Option</td>
+                        <td>Element used to specify the options that a user can select from</td>
+                    </tr>
+                    <tr>
+                        <td>&lt;button&gt;</td>
+                        <td>Button</td>
+                        <td>Creates a button that you can combine with other elements(ie. &lt;img&gt;)</td>
+                    </tr>
+                    <tr>
+                        <td>&lt;label&gt;</td>
+                        <td>Label</td>
+                        <td>Element to be used in conjunction with all other form controls, making them more accessible to vision-impaired users</td>
+                    </tr>
+                    <tr>
+                        <td>&lt;fieldset&gt;</td>
+                        <td>Fieldset</td>
+                        <td>Element used to group a set of controls together, and provides a border around them</td>
+                    </tr>
+                    <tr>
+                        <td>&lt;legend&gt;</td>
+                        <td>Legend</td>
+                        <td>Element nested inside the fieldset, used to name the group of controls inside</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+        <!--Form Tags Table Finish-->
+        <!--Form Attribute Table Start-->
+        <section>
+            <h2>Form Attributes</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Attributes</th>
+                        <th>Content</th>
+                        <th>Description</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>action</td>
+                        <td>action="www.example.com"</td>
+                        <td>The URL for the site that will receive the information filled out in the form</td>
+                    </tr>
+                    <tr>
+                        <td>method</td>
+                        <td>method="get"</td>
+                        <td>Values from the form are added to the end of the URL. Ideal for short forms, or when you're only retrieving data from the web server</td>
+                    </tr>
+                    <tr>
+                        <td>method</td>
+                        <td>method="post"</td>
+                        <td>Values are sent in what are known as HTTP headers. Use for long forms, contains sensitive data, allows users to upload files, or if it adds/deletes information from a database</td>
+                    </tr>
+                    <tr>
+                        <td>type</td>
+                        <td>type="text"</td>
+                        <td>Creates a single line text input</td>
+                    </tr>
+                    <tr>
+                        <td>type</td>
+                        <td>type="password"</td>
+                        <td>Just like type="text" except the characters are blocked out</td>
+                    </tr>
+                    <tr>
+                        <td>type</td>
+                        <td>type="radio"</td>
+                        <td>Allows users to choose just one of multiple options</td>
+                    </tr>
+                    <tr>
+                        <td>type</td>
+                        <td>type="checkbox"</td>
+                        <td>Allows user to select/unselect one or more options in answer to a question</td>
+                    </tr>
+                    <tr>
+                        <td>type</td>
+                        <td>type="file"</td>
+                        <td>Creates a box with an upload button, allowing the user to select a file from their device</td>
+                    </tr>
+                    <tr>
+                        <td>type</td>
+                        <td>type="submit"</td>
+                        <td>Used to send a form to the server</td>
+                    </tr>
+                    <tr>
+                        <td>type</td>
+                        <td>type="image"</td>
+                        <td>Allows user to use an image for their submit button</td>
+                    </tr>
+                    <tr>
+                        <td>type</td>
+                        <td>type="hidden"</td>
+                        <td>Allows author to add values to forms that the users cannot see</td>
+                    </tr>
+                    <tr>
+                        <td>type</td>
+                        <td>type="date"</td>
+                        <td>Allows user to select a date to submit on the form</td>
+                    </tr>
+
+                    <tr>
+                        <td>type</td>
+                        <td>type="email"</td>
+                        <td>Only allows valid email address formats to be submitted</td>
+                    </tr>
+                    <tr>
+                        <td>type</td>
+                        <td>type="url"</td>
+                        <td>Only allows valid URL format to be submitted</td>
+                    </tr>
+                    <tr>
+                        <td>type</td>
+                        <td>type="search"</td>
+                        <td>Creates a search box</td>
+                    </tr>
+                    <tr>
+                        <td>name</td>
+                        <td>name="name of information being sent"</td>
+                        <td>Tells the server what information is being submitted(ie. name="username")</td>
+                    </tr>
+                    <tr>
+                        <td>maxlength</td>
+                        <td>maxlength="example number"</td>
+                        <td>Limits the number of characters that a user can submit</td>
+                    </tr>
+                    <tr>
+                        <td>value</td>
+                        <td>value="name of checkbox/radio etc"</td>
+                        <td>Tells the server what information the user has submitted</td>
+                    </tr>
+                    <tr>
+                        <td>checked</td>
+                        <td>checked="example box"</td>
+                        <td>Indicates which value should be selected when the page loads</td>
+                    </tr>
+                    <tr>
+                        <td>selected</td>
+                        <td>selected="selected"</td>
+                        <td>Similar to "checked" attribute, but for drop down lists</td>
+                    </tr>
+                    <tr>
+                        <td>size</td>
+                        <td>size="example number"</td>
+                        <td>Creates a box for the drop down list, the number tells how many options the box should show at a time</td>
+                    </tr>
+                    <tr>
+                        <td>multiple</td>
+                        <td>multiple="multiple"</td>
+                        <td>Allows user to select multiple options</td>
+                    </tr>
+                    <tr>
+                        <td>for</td>
+                        <td>for="form control name"</td>
+                        <td>It states which form control the label belongs to</td>
+                    </tr>
+                    <tr>
+                        <td>placeholder</td>
+                        <td>placeholder="example text"</td>
+                        <td>Displays the text in the text box upon loading the page</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+        <!--Form Attribute Table Finish-->
+        <!--Extra Markup Tags Table Start-->
+        <section>
+            <h2>Extra Markup Tags</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Tag</th>
+                        <th>Name</th>
+                        <th>Description</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>&lt;!DOCTYPE html&gt;</td>
+                        <td>Doctype</td>
+                        <td>Declares the language being used in the following code</td>
+                    </tr>
+                    <tr>
+                        <td>&lt;!-- --&gt;</td>
+                        <td>Comment</td>
+                        <td>Comments made in the code for future reference, anything inside the comment tag will not be processed</td>
+                    </tr>
+                    <tr>
+                        <td>&lt;div&gt;</td>
+                        <td>Division</td>
+                        <td>Allows you to group a set of elements together in one block-level box</td>
+                    </tr>
+                    <tr>
+                        <td>&lt;span&gt;</td>
+                        <td>Span</td>
+                        <td>It is the inline equivalent of the &lt;div&gt; element</td>
+                    </tr>
+                    <tr>
+                        <td>&lt;iframe&gt;</td>
+                        <td>Inline Frame</td>
+                        <td>It's a little window that's been cut into your page, and in that window, you can see another page</td>
+                    </tr>
+                    <tr>
+                        <td>&lt;meta&gt;</td>
+                        <td>Meta Data</td>
+                        <td>Lives inside the &lt;head&gt; element, and contains information about that web page</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+        <!--Extra Markup Tags Table Finish-->
+        <!--Extra Markup Attributes Table Start-->
+        <section>
+            <h2>Extra Markup Attributes</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Attributes</th>
+                        <th>Content</th>
+                        <th>Description</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>id</td>
+                        <td>id="example"</td>
+                        <td>Every HTML element can carry the id attribute. It is used to uniquely identify that element from other elements on the page</td>
+                    </tr>
+                    <tr>
+                        <td>class</td>
+                        <td>class="example"</td>
+                        <td>Every HTML element can carry a class attribute. Unlike id, class is used to identify several elements as being different from the other elements on the page</td>
+                    </tr>
+                    <tr>
+                        <td>src</td>
+                        <td>src="www.example.com"</td>
+                        <td>The src attribute specifies the URL of the page to show in the iframe</td>
+                    </tr>
+                    <tr>
+                        <td>height</td>
+                        <td>height="123"</td>
+                        <td>Specifies the height of the iframe in pixels</td>
+                    </tr>
+                    <tr>
+                        <td>width</td>
+                        <td>width="123"</td>
+                        <td>Specifies the width of the iframe in pixels</td>
+                    </tr>
+                    <tr>
+                        <td>scrolling</td>
+                        <td>scrolling="yes/no"</td>
+                        <td>Indicates whether the iframe should have scrollbars or not. Not supported in HTML5</td>
+                    </tr>
+                    <tr>
+                        <td>frameborder</td>
+                        <td>frameborder="0/1"</td>
+                        <td>Indicates whether the iframe should have a border or not. 0 = no, 1 = yes. Not supported in HTML5</td>
+                    </tr>
+                    <tr>
+                        <td>seamless</td>
+                        <td>seamless="seamless"</td>
+                        <td>In HTML5, seamless can be applied to an iframe where scrollbars are not desired</td>
+                    </tr>
+                    <tr>
+                        <td>name</td>
+                        <td>name="description"</td>
+                        <td>Contains a description of the page, and is used by search engines to understand what the page is about</td>
+                    </tr>
+                    <tr>
+                        <td>name</td>
+                        <td>name="keywords"</td>
+                        <td>Contains a list of comma-separated words that a user might search on to find the page</td>
+                    </tr>
+                    <tr>
+                        <td>name</td>
+                        <td>name="robots"</td>
+                        <td>This indicates whether search engines should add this page to their search results or not(content="nofollow" for yes, content="noindex" for no)</td>
+                    </tr>
+                    <tr>
+                        <td>http-equiv</td>
+                        <td>http-equiv="author"</td>
+                        <td>This defines the author of the web page</td>
+                    </tr>
+                    <tr>
+                        <td>http-equiv</td>
+                        <td>http-equiv="pragma"</td>
+                        <td>This prevents the browser from caching the page</td>
+                    </tr>
+                    <tr>
+                        <td>http-equiv</td>
+                        <td>http-equiv="expires"</td>
+                        <td>This option is used to indicate when the page should expire, and no longer be cached</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+        <!--Extra Markup Attributes Table Finish-->
+        <!--Escape Characters Table Start-->
+        <section>
+            <h2>Escape Characters</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Symbol</th>
+                        <th>Name</th>
+                        <th>Code</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>&lt;</td>
+                        <td>Less-than sign</td>
+                        <td>& lt; and & #60;</td>
+                    </tr>
+                    <tr>
+                        <td>&gt;</td>
+                        <td>Greater-than sign</td>
+                        <td>& gt; and & #62;</td>
+                    </tr>
+                    <tr>
+                        <td>&amp;</td>
+                        <td>Ampersand</td>
+                        <td>& amp; and & #38;</td>
+                    </tr>
+                    <tr>
+                        <td>&quot;</td>
+                        <td>Quotation mark</td>
+                        <td>& quot; and & #34;</td>
+                    </tr>
+                    <tr>
+                        <td>&cent;</td>
+                        <td>Cent sign</td>
+                        <td>& cent; and & #162;</td>
+                    </tr>
+                    <tr>
+                        <td>&pound;</td>
+                        <td>Pound sign</td>
+                        <td>& pound; and & #163;</td>
+                    </tr>
+                    <tr>
+                        <td>&yen;</td>
+                        <td>Yen sign</td>
+                        <td>& yen; and & #165;</td>
+                    </tr>
+                    <tr>
+                        <td>&euro;</td>
+                        <td>Euro sign</td>
+                        <td>& euro; and & #8364;</td>
+                    </tr>
+                    <tr>
+                        <td>&copy;</td>
+                        <td>Copyright symbol</td>
+                        <td>& copy; and & #169;</td>
+                    </tr>
+                    <tr>
+                        <td>&reg;</td>
+                        <td>Registered trademark</td>
+                        <td>& reg; and & #174;</td>
+                    </tr>
+                    <tr>
+                        <td>&trade;</td>
+                        <td>Trademark</td>
+                        <td>& trade; and & #8482;</td>
+                    </tr>
+                    <tr>
+                        <td>&lsquo;</td>
+                        <td>Left single quote</td>
+                        <td>& lsquo; and & #8216;</td>
+                    </tr>
+                    <tr>
+                        <td>&rsquo;</td>
+                        <td>Right single quote</td>
+                        <td>& rsquo; and & #8217;</td>
+                    </tr>
+                    <tr>
+                        <td>&ldquo;</td>
+                        <td>Left double quotes</td>
+                        <td>& ldquo; and & #8220;</td>
+                    </tr>
+                    <tr>
+                        <td>&rdquo;</td>
+                        <td>Right double quotes</td>
+                        <td>& rdquo; and & #8221;</td>
+                    </tr>
+                    <tr>
+                        <td>&times;</td>
+                        <td>Multiplication sign</td>
+                        <td>& times; and & #215;</td>
+                    </tr>
+                    <tr>
+                        <td>&divide;</td>
+                        <td>Division Sign</td>
+                        <td>& divide; and & #247;</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+        <!--Escape Characters Table Finish-->
+        <!--Flash/Video/Audio Tags Table Start-->
+        <section>
+            <h2>Flash, Video, and Audio Tags</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Tag</th>
+                        <th>Name</th>
+                        <th>Description</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>&lt;video&gt;</td>
+                        <td>Video</td>
+                        <td>This element has a number of attributes wich allow you to control video playback</td>
+                    </tr>
+                    <tr>
+                        <td>&lt;audio&gt;</td>
+                        <td>Audio</td>
+                        <td>This element has a number of attributes wich allow you to control audio playback</td>
+                    </tr>
+                    <tr>
+                        <td>&lt;source&gt;</td>
+                        <td>Source</td>
+                        <td>Nested within the video or audio elements, this element specifies the location of file to be played</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+        <!--Flash/Video/Audio Tags Table Finish-->
+        <!--Flash/Video/Audio Attributes Table Start-->
+        <section>
+            <h2>Flash, Video, and Audio Attributes</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Attributes</th>
+                        <th>Content</th>
+                        <th>Description</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>src</td>
+                        <td>src="example.mp4"</td>
+                        <td>This specifies the path to the video and/or audio</td>
+                    </tr>
+                    <tr>
+                        <td>poster</td>
+                        <td>poster="example.jpg"</td>
+                        <td>This allows you to specify an image to show while the video is downloading, or until the user tells the video to play</td>
+                    </tr>
+                    <tr>
+                        <td>width, height</td>
+                        <td>width="123" height="123"</td>
+                        <td>These specify the size of the player in pixels</td>
+                    </tr>
+                    <tr>
+                        <td>controls</td>
+                        <td>controls</td>
+                        <td>When used, this indicates to the browser, that it should supply its own controls for playback</td>
+                    </tr>
+                    <tr>
+                        <td>autoplay</td>
+                        <td>autoplay</td>
+                        <td>When used, this specifies that the file should play automatically</td>
+                    </tr>
+                    <tr>
+                        <td>loop</td>
+                        <td>loop</td>
+                        <td>When used, this indicates that the video and/or audio should start playing again once it has ended</td>
+                    </tr>
+                    <tr>
+                        <td>preload</td>
+                        <td>preload="none"</td>
+                        <td>Tells the browser not to load the video and/or audio until the user presses play</td>
+                    </tr>
+                    <tr>
+                        <td>preload</td>
+                        <td>preload="auto"</td>
+                        <td>Tells the browser to download the video and/or audio when the page loads</td>
+                    </tr>
+                    <tr>
+                        <td>preload</td>
+                        <td>preload="metadata"</td>
+                        <td>Tells the browser to just collect information such as the size, first frame, track list, and duration</td>
+                    </tr>
+                    <tr>
+                        <td>type</td>
+                        <td>type="video/mp4"</td>
+                        <td>This attribute tells the browser what format the video and/or audio is in</td>
+                    </tr>
+                    <tr>
+                        <td>codecs</td>
+                        <td>codecs="example"</td>
+                        <td>The codec that was used to encode the video is supplied within the type attribute</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+        <!--Flash/Video/Audio Attributes Table Finish-->
+    </article>
+    <!--HTML Cheatsheet Finish-->
+    <!--CSS Cheatsheet Start-->
+    <article>
+        <h1>CSS</h1>
+        <!--CSS Selectors Table Start-->
+        <section>
+            <h2>CSS Selectors Table</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Selector</th>
+                        <th>Name</th>
+                        <th>Description</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td></td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+        <!--CSS Selectors Table Finish-->
+    </article>
+    <!--CSS Cheatsheet Finish-->
+</body>
+
+</html>
