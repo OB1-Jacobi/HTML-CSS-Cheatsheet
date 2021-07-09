@@ -1,0 +1,46 @@
+/* Universal */
+html {
+    font-size: 16px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: slateblue;
+    color: seashell;
+    width: 90%;
+    margin: 0 auto;
+    display: -ms-inline-grid;
+    grid-template-rows: auto;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-areas: "header header""main main""footer footer";
+}
+
+article {
+    overflow: auto;
+}
+
+nav,
+article,
+footer {
+    margin: 1%;
+}
+
+section {
+    border: solid seashell 1px;
+    margin: 10px;
+    padding: 10px;
+    line-height: 30px;
+}
+
+a {
+    color: rgba(231, 158, 74, 0.644);
+    text-decoration: none;
+}
+
+nav {
+    float: right;
+}
+
+h1 {
+    display: inline-block;
+}
